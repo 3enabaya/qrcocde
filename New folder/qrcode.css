@@ -1,0 +1,68 @@
+
+body{
+    background-color: deepskyblue;
+}
+.card{
+    background-color: white;
+    width: 300px;
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(231, 222, 222);
+    margin: 0 auto;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 4px
+
+}
+header{
+    background-color: white;
+    margin: 10px;
+    text-align: start;
+    padding-top: 20px;
+
+}
+p{
+     color: black;
+ font-size: 16px;
+
+}
+h1{
+    font-size: 21px;
+    line-height: 1.5;
+
+}
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-bottom: 10px;
+
+}
+button{
+    background-color: deepskyblue;
+    color: white;
+    height: 40px;
+    border: 1px solid rgb(231, 222, 222);
+    width: 260px;
+    border-radius: 4px;
+}
+input{
+    width: 260px;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid rgb(231, 222, 222);
+
+
+}
+.qr{
+ width: 260px;
+justify-content: center;
+ display: flex;
+}
+
+
